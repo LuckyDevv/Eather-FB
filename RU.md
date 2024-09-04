@@ -13,6 +13,7 @@
 **На данный момент бот объединяет данные из всех чатов в один список. Поэтому мы не рекомендуем использовать его в коммерческих целях. В будущем мы планируем выпустить обновление, которое позволит разделять данные по разным чатам.**
 
 <h2 align="center">Методы и функции:</h2>
+
 ```python
 @bot.message_handler(commands=['start'])  # "/start" command handler
 def start(message):  # Метод обработчика команды /start
@@ -41,6 +42,7 @@ def choice_send(message):  # Метод для отправки случайно
 ```
 
 <h2 align="center">Установка и настройка:</h2>
+
 ### В первую очередь, вам необходимо иметь Python3-full на своем устройстве, а также Pip для него.
 ```shell
 sudo apt-get upgrade
@@ -48,17 +50,21 @@ sudo apt-get update
 sudo apt-get -y install python3-full
 sudo apt install python3-pip
 ```
+
 ### После установки Python3-full, вам необходимо установить следующие библиотеки для своего Python3:
 1. **telebot, pyTelegramBotAPI** - библиотека, необходимая для успешной работы бота в Telegram. Без данной библиотеки, у вас не получится запустить бота без ошибок.
 ```shell
 pip install telebot
 pip install pyTelegramBotAPI
 ```
+
 2. **PyYAML** - библиотека, необходимая для корректной работы ConfigController.py
 ```shell
 pip install PyYAML
 ```
+
 3. **requests** - обязательная библиотека для работы pyTelegramBotAPI
+
 ```shell
 pip install requests
 ```
@@ -74,7 +80,7 @@ python3 main.py
 ### Если при запуске Python3 напишет вам ошибку о том, что отсутствует какая-либо из библиотек, воспользуйтесь инструкцией и установите её.
 
 <h2 align='center'>Обо мне</h2>
-<i>**Разработчик бота - LuckyDevv**</i><br>
-**Telegram - <a href='https://t.me/luckydevv'>@luckydevv**</a><br>
-**VK - <a href='https://vk.com/luckydevv'>@luckydevv</a>**<br>
-**Discord - <a href='https://discordapp.com/users/972994261979107369'>@luckydevv</a>**
+<i><b>Разработчик бота - LuckyDevv</b></i><br>
+<b>Telegram - <a href='https://t.me/luckydevv'>@luckydevv</a></b><br>
+<b>VK - <a href='https://vk.com/luckydevv'>@luckydevv</a></b><br>
+<b>Discord - <a href='https://discordapp.com/users/972994261979107369'>@luckydevv</a></b>
